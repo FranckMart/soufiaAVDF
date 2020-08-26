@@ -1,0 +1,195 @@
+@font-face {
+    font-family: "releway";
+    src: url("fonts/Raleway/static/Raleway-Light.ttf");
+}
+
+@font-face {
+    font-family: "archivo";
+    src: url("fonts/Archivo/Archivo-Medium.ttf");
+}
+
+
+html {
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgb(255, 255, 255);
+
+}
+
+h1,
+h2,
+h3,
+h4,
+label {
+    margin: 0;
+    font-family: 'releway', sans-serif;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+}
+
+h5{
+    margin: 0;
+    font-family: 'releway', sans-serif;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.952);
+}
+
+
+p {
+    font-size: 1rem;
+    font-family: 'archivo', sans-serif;
+    color: rgba(255, 255, 255, 0.952);
+}
+
+a {
+    margin: 0;
+    font-size: 2rem;
+    text-decoration: none;
+    font-family: 'relaway', sans-serif;
+    color: rgba(155, 152, 152, 0.952);
+}
+
+a > h2:hover, a > h3:hover {
+    color: #11f5b8;
+}
+
+li {
+    font-family: 'Archivo', sans-serif;
+    color: rgba(255, 255, 255, 0.952);
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation:landscape) {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    label {
+        margin: 0;
+        font-family: 'relaway', sans-serif;
+        font-size: 1.5rem;
+        color: rgba(255, 255, 255, 0.952);
+    }
+    
+    
+    p {
+        font-size: 0.8rem;
+        font-family: 'archivo', sans-serif;
+        color: rgba(255, 255, 255, 0.952);
+    }
+    
+    a {
+        font-size: 0.8rem;
+        text-decoration: none;
+        font-family: 'relaway', sans-serif;
+        color: rgba(255, 255, 255, 0.952);
+    }
+    
+    a:hover {
+        color: white;
+    }
+    
+    li {
+        font-family: 'archivo', sans-serif;
+        color: rgba(255, 255, 255, 0.952);
+    }
+    
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation:portrait) {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    label {
+        margin: 0;
+        font-family: 'relaway', sans-serif;
+        font-size: 1.5rem;
+        color: rgba(255, 255, 255, 0.952);
+    }
+    
+    
+    p {
+        font-size: 0.8rem;
+        font-family: 'archivo', sans-serif;
+        color: rgba(255, 255, 255, 0.952);
+    }
+    
+    a {
+        font-size: 0.8rem;
+        text-decoration: none;
+        font-family: 'relaway', sans-serif;
+        color: rgba(255, 255, 255, 0.952);
+    }
+    
+    a:hover {
+        color: white;
+    }
+    
+    li {
+        font-family: 'archivo', sans-serif;
+        color: rgba(255, 255, 255, 0.952);
+    }
+  
+}
+
+
+@media screen and (max-width:480px) {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    label {
+        margin: 0;
+        font-family: 'relaway', sans-serif;
+        font-size: 1.5rem;
+        color: rgba(255, 255, 255, 0.952);
+    }
+    
+    
+    p {
+        font-size: 0.8rem;
+        font-family: 'archivo', sans-serif;
+        color: rgba(255, 255, 255, 0.952);
+    }
+    
+    a {
+        font-size: 0.8rem;
+        text-decoration: none;
+        font-family: 'relaway', sans-serif;
+        color: rgba(255, 255, 255, 0.952);
+    }
+    
+    a:hover {
+        color: white;
+    }
+    
+    li {
+        font-family: 'archivo', sans-serif;
+        color: rgba(255, 255, 255, 0.952);
+    }
+}

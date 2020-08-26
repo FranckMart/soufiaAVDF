@@ -1,0 +1,48 @@
+body{
+   /* <span>Photo by <a href="https://unsplash.com/@sincerelymedia?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Sincerely Media</a> on <a href="https://unsplash.com/s/photos/help?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>*/
+    background: url(../img/sincerely-media-EtyBBUByPSQ-unsplash\ copie.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#content_section{
+    width: 100%;
+    margin: auto 0;
+}
+
+#content_section > h1 {
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    margin: auto 0;
+    text-align: center;
+}
+
+#content_section > a > h3 {
+    font-size: 2rem;
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    margin: auto 0;
+    text-align: center;
+}
+
+
+.content_section_lien{
+
+    position: absolute;
+    top: 55%;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+
+.content_section_lien > a > h2{
+
+   font-size: 2rem;
+}
+
