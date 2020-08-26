@@ -122,17 +122,22 @@ li {
     h2,
     h3,
     h4,
-    h5,
     label {
         margin: 0;
         font-family: 'relaway', sans-serif;
         font-size: 1.5rem;
         color: rgba(255, 255, 255, 0.952);
     }
+    h5{
+        margin: 0;
+        font-family: 'relaway', sans-serif;
+        font-size: 1rem;
+        color: rgba(255, 255, 255, 0.952);
+    }
     
     
     p {
-        font-size: 0.8rem;
+        font-size: 1rem;
         font-family: 'archivo', sans-serif;
         color: rgba(255, 255, 255, 0.952);
     }
@@ -172,7 +177,7 @@ li {
     
     
     p {
-        font-size: 0.8rem;
+        font-size: 1rem;
         font-family: 'archivo', sans-serif;
         color: rgba(255, 255, 255, 0.952);
     }

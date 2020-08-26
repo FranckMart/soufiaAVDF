@@ -65,6 +65,7 @@
     background-color: rgb(214, 214, 214);
     text-align: center;
     border: none;
+    width: 18rem;
 }
 
 .card-img-top {
@@ -78,4 +79,53 @@
     width: 40px;
     height: 40px;
     
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation:landscape) {
+
+    
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation:portrait) {
+    
+    #carouselExampleIndicators{
+        height: 460px;
+    }
+    
+    .carousel-item img{
+        height: 460px;
+    }
+
+    .img_passion {
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    #carouselExampleIndicators{
+        height: 300px;
+    }
+    
+    .carousel-item img{
+        height: 300px;
+    }
+
+    .content_avis {
+        width: 100%;
+        display: flex;
+        margin: auto;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        flex-wrap: wrap;
+    }
+    .card{
+        margin: auto;
+        margin-top: 3%;
+       width: 14rem;
+    }
+
+    .img_passion {
+        width: 100%;
+    }
 }
