@@ -1,11 +1,13 @@
 @font-face {
     font-family: "releway";
     src: url("fonts/Raleway/static/Raleway-Light.ttf");
+    font-display: swap;
 }
 
 @font-face {
     font-family: "archivo";
     src: url("fonts/Archivo/Archivo-Medium.ttf");
+    font-display: swap;
 }
 
 
