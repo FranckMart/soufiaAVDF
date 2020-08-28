@@ -57,12 +57,19 @@
     margin-top:10% ;
     margin-bottom:10% ;
 }
-
+.title_temoignages{
+    width: 60%;
+    text-align: center;
+    background-color: orange;
+    margin: auto;
+    padding: 2%;
+    border-radius: 4px;
+}
 .card{
     margin: 1.5%;
     border-radius: 10%;
     height: 230px;
-    background-color: rgb(214, 214, 214);
+    background-color: rgb(199, 199, 199);
     text-align: center;
     border: none;
     width: 18rem;
@@ -81,12 +88,81 @@
     
 }
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation:landscape) {
 
+/* Sur les téléviseurs */
+@media screen and (min-width:1919px) and (max-resolution:102dpi) {
+    #carouselExampleIndicators{
+        height: 1000px;
+    }
+    
+    .carousel-item img{
+        height: 1000px;
+    }
+}
+
+@media only screen
+
+  and (min-device-width: 375px)
+
+  and (max-device-width: 812px)
+
+  and (orientation: landscape) {
+
+    .title_carousel {
+        width: 100%;
+        position: absolute;
+        top: 47%;
+        text-align: center;
+    }
+
+    .content_avis {
+        width: 100%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+    .card{
+        
+        margin: auto;
+        margin-top: 5%;
+        width: 15rem;
+    }
+
+
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation:landscape) {
+
+    .title_carousel {
+        width: 100%;
+        position: absolute;
+        top: 46.5%;
+        text-align: center;
+    }
+    .title_carousel > h2 {
+       font-size: 2.5rem;
+    }
+
+    .content_avis {
+        width: 100%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+    .card{
+        margin: auto;
+        margin-top: 5%;
+    }
     
 }
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation:portrait) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation:portrait) {
     
     #carouselExampleIndicators{
         height: 460px;
@@ -99,7 +175,21 @@
     .img_passion {
         width: 90%;
     }
-
+    .title_carousel > h2 {
+        font-size: 2.5rem;
+     }
+     .content_avis {
+        width: 100%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .card{
+        margin: auto;
+        margin-top: 5%;
+    }
 }
 
 @media screen and (max-width:480px) {
@@ -129,3 +219,4 @@
         width: 100%;
     }
 }
+

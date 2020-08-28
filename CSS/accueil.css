@@ -46,13 +46,42 @@ body{
    font-size: 2rem;
 }
 
-
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation:landscape) {
+/* Sur les téléviseurs */
+@media screen and (min-width:1919px) and (max-resolution:102dpi) {
+    #content_section > a > h3 {
+        font-size: 3rem;
+        position: absolute;
+        top: 80%;
+        width: 100%;
+        margin: auto 0;
+        text-align: center;
+    }
+    
+    
+    .content_section_lien{
+    
+        position: absolute;
+        top: 55%;
+        width: 100%;
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+    }
+    
+    
+    .content_section_lien > a > h2{
+    
+       font-size: 3rem;
+    }
+    
+}
+/*
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation:landscape) {
 
     
 }
-
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation:portrait) {
+*/
+@media only screen and (min-width : 768px) and (max-device-width : 1024px) and (orientation:portrait) {
     #content_section > a > h3 {
         font-size: 1.7rem;
         position: absolute;
@@ -71,6 +100,31 @@ body{
 
 }
 
+@media only screen
+
+  and (min-device-width: 375px)
+
+  and (max-device-width: 812px)
+
+  and (orientation: landscape) {
+
+    #content_section > a > h3 {
+        font-size: 1.7rem;
+        position: absolute;
+        top: 80%;
+        width: 100%;
+        margin: auto 0;
+        text-align: center;
+    }
+    
+   
+.content_section_lien > a > h2{
+
+    font-size: 1.5rem;
+ }
+
+
+}
 @media screen and (max-width:480px) {
     #content_section > a > h3 {
         font-size: 1.7rem;
