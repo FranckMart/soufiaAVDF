@@ -5,7 +5,9 @@
 .carousel-item img{
     height: 680px;
 }
-
+.carousel-indicators{
+    z-index: 9;
+}
 .title_carousel{
     width: 100%;
     position: absolute;

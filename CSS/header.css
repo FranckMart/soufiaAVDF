@@ -145,4 +145,41 @@ a:hover {
     }
 
 
+    @media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation:portrait) {
+        .nav_categorie{
+            width: 45%;
+        }
+      
+    }
+    
+    @media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation:landscape) {
+    
+        .nav_categorie{
+            width: 45%;
+        }
+        
+    }
+    
+    
+    @media only screen
+    
+      and (min-device-width: 370px)
+    
+      and (max-device-width: 812px)
+    
+      and (orientation: landscape) {
+        .nav_categorie{
+            width:45%;
+        }
+    
+    }
+    
+    
+    @media screen and (max-width:480px) {
+    
+      .nav_categorie{
+          width: 45%;
+      }
+    }
+
    
