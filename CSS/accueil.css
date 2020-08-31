@@ -95,6 +95,7 @@ body{
 .content_section_lien > a > h2{
 
     font-size: 1.7rem;
+    color: #ffbc40;
  }
   
 
@@ -121,6 +122,7 @@ body{
 .content_section_lien > a > h2{
 
     font-size: 1.5rem;
+    color:#ffbc40;
  }
 
 
@@ -133,12 +135,14 @@ body{
         width: 100%;
         margin: auto 0;
         text-align: center;
+       
     }
     
    
 .content_section_lien > a > h2{
 
     font-size: 1.5rem;
+    color: #ffbc40;
  }
  
 }
